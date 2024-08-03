@@ -34,7 +34,7 @@
 2. Clone the repository:
     ```bash
     git clone https://github.com/bhaskar552/drone.git
-    cd drone-application
+    cd drone
     ```
 
 3. Build and run the containers:
