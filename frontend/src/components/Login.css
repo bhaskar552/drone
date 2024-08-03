@@ -1,0 +1,53 @@
+.login-container {
+    background-color: #121212;
+    /* Dark background */
+    color: white;
+    /* Text color */
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-form {
+    background-color: #1e1e1e;
+    /* Slightly lighter dark background for form */
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 400px;
+}
+
+h1 {
+    color: #ffffff;
+    /* Header color */
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.MuiTextField-root {
+    margin-bottom: 1rem;
+}
+
+.MuiOutlinedInput-root {
+    background-color: #333333;
+    /* Dark background for input fields */
+}
+
+.MuiInputLabel-root {
+    color: #b3b3b3;
+    /* Lighter color for labels */
+}
+
+.MuiButton-containedPrimary {
+    background-color: #6200ea;
+    /* Primary button color */
+    color: #ffffff;
+    /* Button text color */
+}
+
+.MuiButton-containedPrimary:hover {
+    background-color: #3700b3;
+    /* Darker shade on hover */
+}

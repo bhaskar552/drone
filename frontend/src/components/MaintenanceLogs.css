@@ -1,0 +1,28 @@
+.maintenance-logs {
+    margin-top: 20px;
+}
+
+.maintenance-logs h3 {
+    margin-bottom: 10px;
+}
+
+.maintenance-logs table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.maintenance-logs th,
+.maintenance-logs td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.maintenance-logs th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+.maintenance-logs tr:nth-child(even) {
+    background-color: #f8f9fa;
+}

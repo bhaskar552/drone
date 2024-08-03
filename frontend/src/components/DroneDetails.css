@@ -1,0 +1,43 @@
+.drone-details-container {
+    margin: 20px;
+}
+
+.drone-image {
+    width: 100%;
+    height: auto;
+}
+
+.battery-status {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.battery-bar {
+    background-color: #ccc;
+    height: 5px;
+    width: 100px;
+    margin: 0 10px;
+    border-radius: 2px;
+}
+
+.battery-level {
+    background-color: #00f;
+    height: 100%;
+    border-radius: 2px;
+}
+
+.location-map {
+    margin-top: 20px;
+}
+
+.drone-details-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.maintenance-logs {
+    margin-top: 20px;
+}
