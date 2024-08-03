@@ -128,6 +128,7 @@ DRONE/
 │   └── package.json
 ├── README.md
 └── docker-compose.yml
+```
 
 
 ## Component Descriptions
