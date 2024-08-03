@@ -33,7 +33,7 @@
 
 2. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/drone-application.git
+    git clone https://github.com/bhaskar552/drone.git
     cd drone-application
     ```
 
@@ -88,41 +88,44 @@
 
 ## Project Structure
 
+The project directory is organized as follows:
+
+```plaintext
 DRONE/
 ├── Backend/
-│ ├── node_modules/
-│ ├── db.json
-│ ├── Dockerfile
-│ ├── package-lock.json
-│ ├── package.json
-│ └── server.js
+│   ├── node_modules/
+│   ├── db.json
+│   ├── Dockerfile
+│   ├── package-lock.json
+│   ├── package.json
+│   └── server.js
 ├── frontend/
-│ ├── node_modules/
-│ ├── public/
-│ ├── src/
-│ │ ├── assets/
-│ │ ├── components/
-│ │ │ ├── DroneDetails.css
-│ │ │ ├── DroneDetails.js
-│ │ │ ├── DroneList.css
-│ │ │ ├── DroneList.js
-│ │ │ ├── Header.js
-│ │ │ ├── Home.css
-│ │ │ ├── Home.js
-│ │ │ ├── Login.css
-│ │ │ ├── Login.js
-│ │ │ ├── MaintenanceLogs.css
-│ │ │ ├── MaintenanceLogs.js
-│ │ │ └── Map.js
-│ │ ├── redux/
-│ │ ├── App.css
-│ │ ├── App.js
-│ │ ├── index.css
-│ │ └── index.js
-│ ├── .gitignore
-│ ├── Dockerfile
-│ ├── package-lock.json
-│ └── package.json
+│   ├── node_modules/
+│   ├── public/
+│   ├── src/
+│   │   ├── assets/
+│   │   ├── components/
+│   │   │   ├── DroneDetails.css
+│   │   │   ├── DroneDetails.js
+│   │   │   ├── DroneList.css
+│   │   │   ├── DroneList.js
+│   │   │   ├── Header.js
+│   │   │   ├── Home.css
+│   │   │   ├── Home.js
+│   │   │   ├── Login.css
+│   │   │   ├── Login.js
+│   │   │   ├── MaintenanceLogs.css
+│   │   │   ├── MaintenanceLogs.js
+│   │   │   └── Map.js
+│   │   ├── redux/
+│   │   ├── App.css
+│   │   ├── App.js
+│   │   ├── index.css
+│   │   └── index.js
+│   ├── .gitignore
+│   ├── Dockerfile
+│   ├── package-lock.json
+│   └── package.json
 ├── README.md
 └── docker-compose.yml
 
