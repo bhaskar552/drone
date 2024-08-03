@@ -1,0 +1,82 @@
+{
+  "users": [
+    {"username": "admin", "password": "password123"},
+    {"username": "manager", "password": "securePass456"},
+    {"username": "pilot1", "password": "flyHigh789"},
+    {"username": "technician", "password": "fixIt101"}
+  ],
+  "drones": [
+    {
+      "id": "Drone1",
+      "status": "Available",
+      "flight_hours": 120,
+      "battery_status": "80%",
+      "last_known_location": [40.712776, -74.005974],
+      "current_mission": "Survey field A",
+      "maintenance_logs": [
+        {"date": "2024-01-10", "description": "Battery replacement", "technician": "John Doe"},
+        {"date": "2024-02-15", "description": "Rotor inspection", "technician": "Jane Smith"}
+      ]
+    },
+    {
+      "id": "Drone2",
+      "status": "In-flight",
+      "flight_hours": 200,
+      "battery_status": "50%",
+      "last_known_location": [34.052235, -118.243683],
+      "current_mission": "Inspect irrigation system",
+      "maintenance_logs": [
+        {"date": "2024-03-05", "description": "Firmware update", "technician": "Alice Johnson"},
+        {"date": "2024-04-22", "description": "Motor calibration", "technician": "Bob Lee"}
+      ]
+    },
+    {
+      "id": "Drone3",
+      "status": "Maintenance",
+      "flight_hours": 95,
+      "battery_status": "60%",
+      "last_known_location": [41.878113, -87.629799],
+      "current_mission": "N/A",
+      "maintenance_logs": [
+        {"date": "2024-05-12", "description": "Propeller replacement", "technician": "Charlie Brown"},
+        {"date": "2024-06-30", "description": "GPS module repair", "technician": "Diana Prince"}
+      ]
+    },
+    {
+      "id": "Drone4",
+      "status": "Available",
+      "flight_hours": 150,
+      "battery_status": "90%",
+      "last_known_location": [37.774929, -122.419416],
+      "current_mission": "Monitor crop growth",
+      "maintenance_logs": [
+        {"date": "2024-07-08", "description": "Camera calibration", "technician": "Eve Wilson"},
+        {"date": "2024-08-17", "description": "Software update", "technician": "Frank Martin"}
+      ]
+    },
+    {
+      "id": "Drone5",
+      "status": "Charging",
+      "flight_hours": 180,
+      "battery_status": "30%",
+      "last_known_location": [51.507351, -0.127758],
+      "current_mission": "N/A",
+      "maintenance_logs": [
+        {"date": "2024-09-03", "description": "Battery health check", "technician": "Grace Kelly"},
+        {"date": "2024-10-11", "description": "Sensor cleaning", "technician": "Henry Ford"}
+      ]
+    },
+    {
+      "id": "Drone6",
+      "status": "In-flight",
+      "flight_hours": 220,
+      "battery_status": "70%",
+      "last_known_location": [48.856614, 2.352222],
+      "current_mission": "Thermal imaging of solar panels",
+      "maintenance_logs": [
+        {"date": "2024-11-20", "description": "Thermal camera upgrade", "technician": "Irene Adler"},
+        {"date": "2024-12-05", "description": "Compass calibration", "technician": "Jack Sparrow"}
+      ]
+    }
+  ]
+}
